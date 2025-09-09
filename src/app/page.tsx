@@ -32,7 +32,6 @@ export default function LakantAdvisoryPage() {
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a href="#contact" className="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-medium hover:opacity-90">Request a consultation</a>
-              <a href="https://www.lakant.io" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center rounded-2xl border px-5 py-3 text-sm hover:bg-neutral-50">Visit lakant.io (product)</a>
             </div>
             <div className="mt-6 text-xs text-neutral-500">
               Previously at FactSet & Goldman Sachs — 20+ years leading global technology transformation.
@@ -43,7 +42,7 @@ export default function LakantAdvisoryPage() {
               <p className="text-sm font-medium mb-3">At a glance</p>
               <ul className="space-y-3 text-sm text-neutral-700">
                 <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>AI strategy, data architecture, workflow automation</li>
-                <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Global leadership of 100+ professionals</li>
+                <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Proven track record delivering complex global programs</li>
                 <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Financial services & investment research expertise</li>
                 <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Founder of lakant.io — next‑gen data aggregation platform</li>
               </ul>
