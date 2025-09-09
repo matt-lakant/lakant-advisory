@@ -161,21 +161,20 @@ export default function LakantAdvisoryPage() {
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Let&apos;s talk about your next initiative</h2>
               <p className="mt-3 text-neutral-300 max-w-xl">Tell me about your goals and constraints. I&apos;ll respond with a pragmatic plan and a clear first step.</p>
               <div className="mt-6 grid sm:grid-cols-2 gap-3 text-sm">
-                <a href="mailto:mattcorn@gmail.com" className="rounded-2xl bg-white text-neutral-900 px-5 py-3 text-center font-medium hover:opacity-90">Email Matthieu</a>
+                <a href="mailto:matt.cornet@lakant.com" className="rounded-2xl bg-white text-neutral-900 px-5 py-3 text-center font-medium hover:opacity-90">Email Matthieu</a>
                 <a href="https://www.linkedin.com/in/mcornet/" target="_blank" rel="noreferrer" className="rounded-2xl border border-neutral-700 px-5 py-3 text-center hover:bg-neutral-800">Connect on LinkedIn</a>
               </div>
             </div>
             <div className="md:col-span-5">
               <div className="rounded-3xl border border-neutral-800 p-6">
-                <h3 className="font-semibold mb-3">Services (top 5)</h3>
+                <h3 className="font-semibold mb-3">We can help with:</h3>
                 <ul className="space-y-2 text-neutral-200 text-sm">
-                  <li>Management Consulting</li>
-                  <li>IT Consulting</li>
                   <li>Business Consulting</li>
+                  <li>IT Consulting</li>
+                  <li>Project Planning & Execution</li>
                   <li>Change Management</li>
                   <li>Executive Coaching / Training</li>
                 </ul>
-                <p className="text-xs text-neutral-400 mt-4">Looking for the platform? Visit <a href="https://www.lakant.io" target="_blank" rel="noreferrer" className="underline">lakant.io</a>.</p>
               </div>
             </div>
           </div>
@@ -187,7 +186,7 @@ export default function LakantAdvisoryPage() {
         <div className="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-500 flex flex-col md:flex-row items-center md:justify-between gap-2">
           <span>© {new Date().getFullYear()} Lakant Advisory</span>
           <div className="flex items-center gap-4">
-            <a href="mailto:mattcorn@gmail.com" className="hover:opacity-70">mattcorn@gmail.com</a>
+            <a href="mailto:matt.cornet@lakant.com" className="hover:opacity-70">matt.cornet@lakant.com</a>
             <a href="https://www.linkedin.com/in/mcornet/" target="_blank" rel="noreferrer" className="hover:opacity-70">LinkedIn</a>
             <a href="https://www.lakant.io" target="_blank" rel="noreferrer" className="hover:opacity-70">lakant.io</a>
           </div>
