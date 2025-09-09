@@ -36,7 +36,7 @@ export default function LakantAdvisoryPage() {
           <div className="md:col-span-7">
             <div className="inline-flex items-center gap-2 text-xs border rounded-full px-3 py-1 mb-4">
               <span className="h-1.5 w-1.5 rounded-full bg-neutral-900" />
-              Independent Advisor — Technology & Data Strategy
+              Independent Consultant — Technology & Data Strategy
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight">
               Accelerate AI & data initiatives<br className="hidden md:block" /> with measurable business impact

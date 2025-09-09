@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "lakant advisory",
-  description: "Independent Advisor — Technology & Data Strategy. Accelerate AI & data initiatives with measurable business impact.",
+  description: "Independent Consultant — Technology & Data Strategy. Accelerate AI & data initiatives with measurable business impact.",
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
