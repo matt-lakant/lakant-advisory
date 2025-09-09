@@ -178,7 +178,7 @@ export default function LakantAdvisoryPage() {
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Let&apos;s talk about your next initiative</h2>
               <p className="mt-3 text-neutral-300 max-w-xl">Tell me about your goals and constraints. I&apos;ll respond with a pragmatic plan and a clear first step.</p>
               <div className="mt-6 grid sm:grid-cols-2 gap-3 text-sm">
-                <a href="mailto:matt.cornet@lakant.com" className="rounded-2xl bg-white text-neutral-900 px-5 py-3 text-center font-medium hover:opacity-90">Email Matthieu</a>
+                <a href="mailto:matt.cornet@lakant.com" className="rounded-2xl bg-white text-neutral-900 px-5 py-3 text-center font-medium hover:opacity-90">Email Matt</a>
                 <a href="https://www.linkedin.com/in/mcornet/" target="_blank" rel="noreferrer" className="rounded-2xl border border-neutral-700 px-5 py-3 text-center hover:bg-neutral-800">Connect on LinkedIn</a>
               </div>
             </div>
