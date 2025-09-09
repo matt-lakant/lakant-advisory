@@ -10,7 +10,12 @@ export default function LakantAdvisoryPage() {
       {/* Navigation */}
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="#top" className="font-semibold tracking-tight text-xl">lakant<span className="text-neutral-400"> advisory</span></a>
+          <a href="#top" className="font-semibold tracking-tight text-xl">
+            lakant<span className="text-neutral-400"> advisory</span>
+            <div className="text-base font-normal text-black">
+              Matt Cornet
+            </div>
+          </a>
           <nav className="hidden md:flex gap-6 text-sm">
             <a href="#services" className="hover:opacity-70">Services</a>
             <a href="#approach" className="hover:opacity-70">Approach</a>
