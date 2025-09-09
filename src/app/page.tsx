@@ -1,4 +1,10 @@
+import { getLatestArticles } from '@/lib/articles';
+import { getConfig } from '@/lib/config';
+import ArticlesClient from '@/components/ArticlesClient';
+
 export default function LakantAdvisoryPage() {
+  const articles = getLatestArticles(3);
+  const config = getConfig();
   return (
     <div className="min-h-screen bg-white text-neutral-900">
       {/* Navigation */}
@@ -8,6 +14,9 @@ export default function LakantAdvisoryPage() {
           <nav className="hidden md:flex gap-6 text-sm">
             <a href="#services" className="hover:opacity-70">Services</a>
             <a href="#approach" className="hover:opacity-70">Approach</a>
+            {config.showArticles && (
+              <a href="#articles" className="hover:opacity-70">Articles</a>
+            )}
             <a href="#outcomes" className="hover:opacity-70">Outcomes</a>
             <a href="#credentials" className="hover:opacity-70">Credentials</a>
             <a href="#contact" className="hover:opacity-70">Contact</a>
@@ -81,8 +90,8 @@ export default function LakantAdvisoryPage() {
                 body: 'Target operating model design, build/buy/partner decisions, risk management, regulatory alignment, and program governance.'
               },
               {
-                title: 'Change Management & Adoption',
-                body: 'Stakeholder alignment, enablement & training, communications, OKRs, and measurement to embed change that sticks.'
+                title: 'Delivery, Change Management & Adoption',
+                body: 'Project planning and execution, stakeholder alignment, enablement & training, communications, OKRs, and measurement to embed change that sticks.'
               }
             ].map((card) => (
               <div key={card.title} className="rounded-3xl border bg-white p-6 shadow-sm hover:shadow transition">
@@ -122,6 +131,9 @@ export default function LakantAdvisoryPage() {
           </div>
         </div>
       </section>
+
+      {/* Articles */}
+      {config.showArticles && <ArticlesClient articles={articles} />}
 
       {/* Outcomes */}
       <section id="outcomes" className="bg-neutral-50/60 border-y">
