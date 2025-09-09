@@ -6,9 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  // For GitHub Pages deployment
-  basePath: process.env.NODE_ENV === 'production' ? '/lakant-advisory' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/lakant-advisory/' : '',
+          // For custom domain deployment
+          basePath: '',
+          assetPrefix: '',
 };
 
 export default nextConfig;
