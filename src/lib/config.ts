@@ -28,3 +28,4 @@ export function getConfig(): Config {
     return { showArticles: false };
   }
 }
+

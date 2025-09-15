@@ -47,3 +47,4 @@ export default function ArticlesClient({ articles }: ArticlesClientProps) {
     </section>
   );
 }
+
