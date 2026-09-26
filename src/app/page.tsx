@@ -1,6 +1,7 @@
 import { getLatestArticles } from '@/lib/articles';
 import { getConfig } from '@/lib/config';
 import ArticlesClient from '@/components/ArticlesClient';
+import CopyrightYear from '@/components/CopyrightYear';
 
 export default function LakantAdvisoryPage() {
   const articles = getLatestArticles(3);
@@ -10,11 +11,14 @@ export default function LakantAdvisoryPage() {
       {/* Navigation */}
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="#top" className="font-semibold tracking-tight text-xl">
-            lakant<span className="text-neutral-400"> advisory</span>
-            <div className="text-base font-normal text-black">
-              Matt Cornet
-            </div>
+          <a href="#top" className="flex items-center gap-2.5 font-semibold tracking-tight text-xl">
+            <img src="/logo.svg" alt="" width={46} height={40} className="h-10 w-auto shrink-0" />
+            <span>
+              lakant<span className="text-neutral-400"> advisory</span>
+              <span className="block text-base font-normal text-black">
+                Matt Cornet
+              </span>
+            </span>
           </a>
           <nav className="hidden md:flex gap-6 text-sm">
             <a href="#services" className="hover:opacity-70">Services</a>
@@ -201,7 +205,7 @@ export default function LakantAdvisoryPage() {
       {/* Footer */}
       <footer className="border-t">
         <div className="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-500 flex flex-col md:flex-row items-center md:justify-between gap-2">
-          <span>© {new Date().getFullYear()} Lakant Advisory</span>
+          <span>© <CopyrightYear /> lakant advisory</span>
           <div className="flex items-center gap-4">
             <a href="mailto:matt.cornet@lakant.com" className="hover:opacity-70">matt.cornet@lakant.com</a>
             <a href="https://www.linkedin.com/in/mcornet/" target="_blank" rel="noreferrer" className="hover:opacity-70">LinkedIn</a>

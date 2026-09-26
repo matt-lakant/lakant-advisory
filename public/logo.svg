@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 174">
+  <!--
+    Lakant logo - V11.
+    All outline edges at 0, 60 or 120 degrees.
+    Notch is an equilateral triangle of side 40.
+
+    Vertex order:
+      1  (  0.000, 173.205)  BL outer
+      2  (100.000,   0.000)  apex outer
+      3  (120.000,  34.641)  cutout entry on right edge      (=  20*sqrt3 in y)
+      4  ( 60.000, 138.564)  cutout valley left              (=  80*sqrt3 in y)
+      5  (100.000, 138.564)  cutout valley right
+      6  (140.000,  69.282)  cutout exit on right edge       (=  40*sqrt3 in y)
+      7  (200.000, 173.205)  BR outer                        (= 100*sqrt3 in y)
+      8  (160.000, 173.205)  notch base right
+      9  (140.000, 138.564)  notch apex
+      10 (120.000, 173.205)  notch base left
+
+    Edge angles:
+      1-2 -sqrt3   2-3 +sqrt3   3-4 -sqrt3   4-5  0     5-6  -sqrt3
+      6-7 +sqrt3   7-8  0       8-9 +sqrt3   9-10 -sqrt3 10-1  0
+  -->
+  <path fill="#02b3d1" d="M 0 173.205
+    L 100 0
+    L 120 34.641
+    L 60 138.564
+    L 100 138.564
+    L 140 69.282
+    L 200 173.205
+    L 160 173.205
+    L 140 138.564
+    L 120 173.205
+    Z"/>
+</svg>
