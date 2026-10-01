@@ -46,7 +46,7 @@ export default function LakantAdvisoryPage() {
               Accelerate AI & data initiatives<br className="hidden md:block" /> with measurable business impact
             </h1>
             <p className="mt-5 text-neutral-600 max-w-xl">
-              I partner with asset managers, financial institutions, and technology‑driven organizations to design AI roadmaps, deliver proof‑of‑concepts, and modernize data architecture and workflows — from strategy through execution.
+              I partner with organizations to modernize data architecture, design AI‑powered workflows, deliver rapid proof‑of‑concepts, and scale them into production — from strategy through execution.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a href="#contact" className="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-medium hover:opacity-90">Request a consultation</a>
@@ -61,7 +61,7 @@ export default function LakantAdvisoryPage() {
               <ul className="space-y-3 text-sm text-neutral-700">
                 <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>AI strategy, data architecture, workflow automation</li>
                 <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Proven track record delivering complex global programs</li>
-                <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Financial services & investment research expertise</li>
+                <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>ERP, business flows, and enterprise data platforms</li>
                 <li className="flex items-start gap-3"><span className="mt-1 h-2 w-2 rounded-full bg-neutral-900"/>Founder of lakant.io — next‑gen data aggregation platform</li>
               </ul>
             </div>
@@ -168,7 +168,7 @@ export default function LakantAdvisoryPage() {
             </div>
             <div className="rounded-3xl border p-6">
               <h3 className="font-semibold mb-2">Focus Domains</h3>
-              <p className="text-sm text-neutral-700">Asset management, investment research, portfolio analytics, performance attribution, ESG integration, customer service operations.</p>
+              <p className="text-sm text-neutral-700">ERP and core business systems, end‑to‑end business flows, enterprise data platforms, workflow automation, and AI adoption.</p>
             </div>
           </div>
         </div>
